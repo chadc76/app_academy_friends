@@ -9,6 +9,8 @@ span, article, footer, time, small {
   border: 0;
   padding: 0;
   box-sizing: inherit;
+
+  font: inherit;
 }
 
 ul {
