@@ -23,15 +23,12 @@ body {
   width: 900px;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  display: flex;
-  justify-content: space-between;
 }
 
 .header-logo {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight: 700;
+  float: left;
   border-right: 1px solid #ccc;
+  font-weight: 700;
 
 }
 
@@ -40,9 +37,10 @@ body {
 }
 
 .header-list {
-  display: flex;
+  float: right;
 }
 
 .header-list > li {
+  float: left;
   border-left: 1px solid #ccc;
 }
